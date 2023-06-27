@@ -2,5 +2,5 @@ spring:
   datasource:
     uri: myEnvironment
     username: root
-    password: ENC(M1v68u/rrNgcec3FM3+zXw==)
+    password: fe9187e010b4dda7ab76845d6ea184369eba40e815047c8062e9c1cf0f34aef8
   
