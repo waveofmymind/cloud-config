@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    url: jdbc:mysql://wave-db.c10hd52f1umw.ap-northeast-2.rds.amazonaws.com:3306/resumes?useSSL=false&serverTimezone=UTC
+    username: wave
+    password: 09139349
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+
+  kafka:
+    bootstrap-servers: ENC(Ye8D/K+6VCjeDv84YdExrcYV6cBySzV/hclr2AcjvVbA7ZPip4KYbjxbkxJIZH6m8p6Ssgd2uJm25UkethFn2g==)
+    consumer:
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+
+jasypt:
+  encryptor:
+    password: ${JASYPT_PASSWORD}
+openai:
+  token: ENC(dQaDvbhWH3u2aGJyzLAj4kirMxGz8aLnmjuXo4NDQUuJEBjXUpb+AOQw1sTcDgTTVFv7ISwyrkREEM/YEhgnVg==)
