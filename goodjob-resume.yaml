@@ -1,8 +1,9 @@
 spring:
   datasource:
-    url: jdbc:mysql://wave-db.c10hd52f1umw.ap-northeast-2.rds.amazonaws.com:3306/resumes?useSSL=false&serverTimezone=UTC
-    username: wave
-    password: 09139349
+    url: ENC(L4M81PpKjR8+13/GdDsUcU5flmZEok5OKv+frWH2c0pYEu6HPXNwHFsiA9A6Evi+9f9DqkiKyEfD/I7oWNlg+2f2mvFR8FmeBEwtFs5YFUOkvUxAd/7WwdR2mWXv+SCr+pnKvyWr5zzEYtYCxlrncGe7AJe+8G1K)
+    username: ENC(jUcwvKowWsVxwkexQM8BRA==)
+    password: ENC(7CCqB+eaWByDHvBg02UQras7mBrA4GW8)
+    driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
       ddl-auto: create
