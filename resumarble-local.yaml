@@ -1,8 +1,4 @@
 spring:
-  data:
-    redis:
-      host: ENC(r8kwvKgyXOPoC+C1R13N9kyAQkKydBigWyQb21N/u5yGN5MoFtZgfqwxJ7b/oQLcdCCLomB1CRCu5DM1byiaIg==)
-      port: 6379
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://127.0.0.1:3306/resumarble?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
@@ -21,6 +17,3 @@ spring:
 springdoc:
   swagger-ui:
     path: /swagger
-
-jwt:
-  secret-key: ENC(wr+2hCMASdZ9LYH3xfrwYPhSPvEiw6Ru0gRj2JQ9zbjbOqi1c3j+J2QsD5uoARxFzEYkoyvJ0h+PAvaPpku2urPmkcBBsqz+lzj7gKAy++VccFCezICmXw==)
