@@ -21,3 +21,6 @@ spring:
 springdoc:
   swagger-ui:
     path: /swagger
+
+jwt:
+  secret-key: ENC(wr+2hCMASdZ9LYH3xfrwYPhSPvEiw6Ru0gRj2JQ9zbjbOqi1c3j+J2QsD5uoARxFzEYkoyvJ0h+PAvaPpku2urPmkcBBsqz+lzj7gKAy++VccFCezICmXw==)
